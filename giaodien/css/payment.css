@@ -1,0 +1,102 @@
+/*------------------------ Payment ----------------*/
+.payment {
+    padding: 100px 0;
+}
+.payment-top-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-top {
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.payment-top-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.payment-top-item i {
+    color: #dddddd;
+}
+.payment-top-payment {
+    border: 1px solid #0DB7EA;
+}
+.payment-top-payment i {
+    color: #0DB7EA;
+}
+.payment-content-left {
+    width: 60%;
+    padding-right: 12px;
+}
+.payment-content-left-payment p {
+    display: inline-block;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.payment-content-left-payment span {
+    margin-right: 12px;
+}
+.payment-content-left-payment {
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.payment-content-left-payment button {
+    height: 35px;
+    border: 2px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.payment-content-left-payment button:hover {
+    background-color: black;
+    color: #fff;
+}
+.payment-content-right {
+    width: 40%;
+    border-left: 2px solid #ddd;
+    padding-left: 12px;
+}
+.payment-content-left p,label {
+    font-size: 12px;
+    font-family: var(--main-text-font);
+    padding-top: 6px;
+}
+.payment-content-right-button {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px dashed #dddddd;
+}
+.payment-content-right-button input {
+    height: 30px;
+    width: 200px;
+    margin-right: 100px;
+    padding-left: 12px;
+}
+.payment-content-right-button button {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.payment-content-right-mnv {
+    margin-top: 20px;
+}
+.payment-content-right-mnv select {
+    height: 30px;
+    width: 100%;
+    color: #75758A;
+    padding-left: 12px;
+}
